@@ -1,0 +1,121 @@
+* {
+  opacity: 0.9
+}
+.lista {
+    display: flex; 
+    justify-content: space-between;
+    list-style: none;
+  }
+  body {
+  background-color: black;
+
+  }
+  li{
+    padding: 10px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+  .lista li {
+    padding: 10px;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+  }
+.img {
+  background-image:url("img-mission-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  height: 900px;
+  margin:  auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  background-color: black;
+  width: 100%;
+  height: 120px;
+  align-items: center;
+}
+h2, h4, h3, p{
+  color: seashell;
+  text-align: center;
+  font-family: Arial, Helvetica;
+  font-size: 22px;
+}
+.geral {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85vw;
+  margin: 10px;
+}
+.p {
+  
+  text-align: center;
+  font-family: Helvetica;
+}
+.gr1 {
+display: flex;
+justify-content: center;
+width: 100vw;
+margin: 10px;
+}
+
+.gr2  {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin: 10px;
+}
+.gr1 >div {
+  margin: 10px;
+}
+.gr2 >div {
+  margin: 10px;
+}
+.locations {
+  background-image:url("img-locations-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  width: 96%;
+  height: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.text3 {
+  background-color: black;
+  width: 300px;
+  height: 400px;
+  opacity: 1;
+}
+.linha2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h4 {
+  color: seashell;
+}
+h1{
+  color: seashell;
+  text-align: center;
+
+}
+h3 {
+  color: seashell;
+  text-align: lefts;
+}
+h2 {
+  text-align: center;
+}
+h5 {
+  color: seashell;
+}
